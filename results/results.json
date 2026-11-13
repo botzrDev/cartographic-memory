@@ -1,0 +1,526 @@
+{
+  "books": [
+    {
+      "name": "Plato-Republic",
+      "chunks": 900
+    },
+    {
+      "name": "Nietzsche-Genealogy",
+      "chunks": 187
+    },
+    {
+      "name": "Machiavelli-Prince",
+      "chunks": 239
+    },
+    {
+      "name": "Hume-Enquiry",
+      "chunks": 313
+    }
+  ],
+  "experiment_a": [
+    {
+      "book": "Plato-Republic",
+      "n_chunks": 900,
+      "d_features": 2000,
+      "rank": 900,
+      "k": 540,
+      "k_fraction": 0.6,
+      "total_variance": 874.0994732073982,
+      "retained_variance": 779.5130275839001,
+      "dropped_variance": 94.58644562349814,
+      "retained_ratio": 0.8917898379729884,
+      "law1_conservation": true,
+      "law1_regions_balance": true,
+      "per_region_dropped": [
+        12.567362666090407,
+        12.012334881366032,
+        11.88953132165393,
+        11.70977198091286,
+        11.844659061967985,
+        11.483766662379455,
+        11.58050704877401,
+        11.498512000353346
+      ]
+    },
+    {
+      "book": "Plato-Republic",
+      "n_chunks": 900,
+      "d_features": 2000,
+      "rank": 900,
+      "k": 270,
+      "k_fraction": 0.3,
+      "total_variance": 874.0994732073982,
+      "retained_variance": 567.8132703917897,
+      "dropped_variance": 306.2862028156085,
+      "retained_ratio": 0.6495980009097481,
+      "law1_conservation": true,
+      "law1_regions_balance": true,
+      "per_region_dropped": [
+        39.6891147626315,
+        42.12629368289194,
+        42.4104766304045,
+        36.3414452241502,
+        36.46859080916572,
+        36.768646103501645,
+        37.52167563046303,
+        34.959959972399886
+      ]
+    },
+    {
+      "book": "Plato-Republic",
+      "n_chunks": 900,
+      "d_features": 2000,
+      "rank": 900,
+      "k": 135,
+      "k_fraction": 0.15,
+      "total_variance": 874.0994732073982,
+      "retained_variance": 374.7757749260361,
+      "dropped_variance": 499.3236982813621,
+      "retained_ratio": 0.42875643609627573,
+      "law1_conservation": true,
+      "law1_regions_balance": true,
+      "per_region_dropped": [
+        62.96631132464641,
+        67.09971360160503,
+        67.87435913930956,
+        58.929171874782725,
+        60.27554594086393,
+        61.60959822254901,
+        62.45583376126388,
+        58.11316441634156
+      ]
+    },
+    {
+      "book": "Nietzsche-Genealogy",
+      "n_chunks": 187,
+      "d_features": 2000,
+      "rank": 187,
+      "k": 112,
+      "k_fraction": 0.5989,
+      "total_variance": 178.13980790303452,
+      "retained_variance": 138.10937981531222,
+      "dropped_variance": 40.03042808772232,
+      "retained_ratio": 0.7752864530452859,
+      "law1_conservation": true,
+      "law1_regions_balance": true,
+      "per_region_dropped": [
+        4.511484841486389,
+        4.431989999400445,
+        5.412342025291873,
+        4.899773163308573,
+        5.675628554404687,
+        4.809624642938022,
+        4.549125521250124,
+        5.740459339642198
+      ]
+    },
+    {
+      "book": "Nietzsche-Genealogy",
+      "n_chunks": 187,
+      "d_features": 2000,
+      "rank": 187,
+      "k": 56,
+      "k_fraction": 0.2995,
+      "total_variance": 178.13980790303452,
+      "retained_variance": 87.8349616046907,
+      "dropped_variance": 90.30484629834385,
+      "retained_ratio": 0.49306756664125984,
+      "law1_conservation": true,
+      "law1_regions_balance": true,
+      "per_region_dropped": [
+        11.859933028367642,
+        11.555904725061781,
+        12.804333696515286,
+        12.079810859433314,
+        12.556932327589756,
+        10.594115354157866,
+        9.301146055697965,
+        9.552670251520217
+      ]
+    },
+    {
+      "book": "Nietzsche-Genealogy",
+      "n_chunks": 187,
+      "d_features": 2000,
+      "rank": 187,
+      "k": 28,
+      "k_fraction": 0.1497,
+      "total_variance": 178.13980790303452,
+      "retained_variance": 54.300270259475845,
+      "dropped_variance": 123.83953764355869,
+      "retained_ratio": 0.30481828232930785,
+      "law1_conservation": true,
+      "law1_regions_balance": true,
+      "per_region_dropped": [
+        16.721349174498883,
+        16.60354310718617,
+        17.14531367478561,
+        16.619399794081477,
+        15.946097010778782,
+        15.809858557165533,
+        12.99208144735926,
+        12.001894877702949
+      ]
+    },
+    {
+      "book": "Machiavelli-Prince",
+      "n_chunks": 239,
+      "d_features": 2000,
+      "rank": 239,
+      "k": 143,
+      "k_fraction": 0.5983,
+      "total_variance": 230.84882335459133,
+      "retained_variance": 177.5515566208975,
+      "dropped_variance": 53.29726673369379,
+      "retained_ratio": 0.7691248066193194,
+      "law1_conservation": true,
+      "law1_regions_balance": true,
+      "per_region_dropped": [
+        6.858357525050646,
+        6.640173135645477,
+        7.035763899818103,
+        6.779129482942745,
+        6.712852993706069,
+        6.90809285149948,
+        6.603318895427765,
+        5.7595779496034485
+      ]
+    },
+    {
+      "book": "Machiavelli-Prince",
+      "n_chunks": 239,
+      "d_features": 2000,
+      "rank": 239,
+      "k": 72,
+      "k_fraction": 0.3013,
+      "total_variance": 230.84882335459133,
+      "retained_variance": 111.88602689217772,
+      "dropped_variance": 118.96279646241359,
+      "retained_ratio": 0.48467228581155525,
+      "law1_conservation": true,
+      "law1_regions_balance": true,
+      "per_region_dropped": [
+        15.038290374518533,
+        14.757754381357634,
+        14.830150905961883,
+        15.364840048223222,
+        14.917403789455873,
+        15.213870679193347,
+        14.520353961503533,
+        14.32013232219952
+      ]
+    },
+    {
+      "book": "Machiavelli-Prince",
+      "n_chunks": 239,
+      "d_features": 2000,
+      "rank": 239,
+      "k": 36,
+      "k_fraction": 0.1506,
+      "total_variance": 230.84882335459133,
+      "retained_variance": 66.51617886782057,
+      "dropped_variance": 164.33264448677073,
+      "retained_ratio": 0.2881373961592585,
+      "law1_conservation": true,
+      "law1_regions_balance": true,
+      "per_region_dropped": [
+        20.67567265877905,
+        20.699861659816825,
+        19.86666691082703,
+        21.26496166232176,
+        20.428387115052193,
+        21.011383313945615,
+        20.499703686781906,
+        19.886007479246295
+      ]
+    },
+    {
+      "book": "Hume-Enquiry",
+      "n_chunks": 313,
+      "d_features": 2000,
+      "rank": 313,
+      "k": 188,
+      "k_fraction": 0.6006,
+      "total_variance": 299.81709244796986,
+      "retained_variance": 241.7339391628795,
+      "dropped_variance": 58.08315328509042,
+      "retained_ratio": 0.8062713742874079,
+      "law1_conservation": true,
+      "law1_regions_balance": true,
+      "per_region_dropped": [
+        6.831973104450329,
+        7.553201897025442,
+        7.697241538267954,
+        7.25360272434262,
+        6.925772292696439,
+        7.060726982824422,
+        6.9976840019033215,
+        7.762950743579868
+      ]
+    },
+    {
+      "book": "Hume-Enquiry",
+      "n_chunks": 313,
+      "d_features": 2000,
+      "rank": 313,
+      "k": 94,
+      "k_fraction": 0.3003,
+      "total_variance": 299.81709244796986,
+      "retained_variance": 159.901827298991,
+      "dropped_variance": 139.9152651489789,
+      "retained_ratio": 0.5333312587131446,
+      "law1_conservation": true,
+      "law1_regions_balance": true,
+      "per_region_dropped": [
+        18.071891478469865,
+        17.195389241471734,
+        17.360449122546875,
+        17.88099827901114,
+        18.10874022154921,
+        17.809951598986615,
+        18.219869911973607,
+        15.267975294969826
+      ]
+    },
+    {
+      "book": "Hume-Enquiry",
+      "n_chunks": 313,
+      "d_features": 2000,
+      "rank": 313,
+      "k": 47,
+      "k_fraction": 0.1502,
+      "total_variance": 299.81709244796986,
+      "retained_variance": 100.83503462672482,
+      "dropped_variance": 198.982057821245,
+      "retained_ratio": 0.33632183476738803,
+      "law1_conservation": true,
+      "law1_regions_balance": true,
+      "per_region_dropped": [
+        26.678197235536764,
+        24.480196086547146,
+        23.932341257799784,
+        25.687323699958135,
+        26.791610533574183,
+        25.203000825856716,
+        25.533361912303363,
+        20.676026269668874
+      ]
+    }
+  ],
+  "experiment_a_monotonicity": [
+    {
+      "book": "Plato-Republic",
+      "retained": [
+        779.5130275839001,
+        567.8132703917897,
+        374.7757749260361
+      ],
+      "monotone_non_increasing": true
+    },
+    {
+      "book": "Nietzsche-Genealogy",
+      "retained": [
+        138.10937981531222,
+        87.8349616046907,
+        54.300270259475845
+      ],
+      "monotone_non_increasing": true
+    },
+    {
+      "book": "Machiavelli-Prince",
+      "retained": [
+        177.5515566208975,
+        111.88602689217772,
+        66.51617886782057
+      ],
+      "monotone_non_increasing": true
+    },
+    {
+      "book": "Hume-Enquiry",
+      "retained": [
+        241.7339391628795,
+        159.901827298991,
+        100.83503462672482
+      ],
+      "monotone_non_increasing": true
+    }
+  ],
+  "experiment_a_tamper": [
+    {
+      "book": "Plato-Republic",
+      "recompute_matches_original": true,
+      "tamper_detected": true,
+      "tampered_region_delta_ratio": 1.5000000000000002
+    },
+    {
+      "book": "Nietzsche-Genealogy",
+      "recompute_matches_original": true,
+      "tamper_detected": true,
+      "tampered_region_delta_ratio": 1.5
+    },
+    {
+      "book": "Machiavelli-Prince",
+      "recompute_matches_original": true,
+      "tamper_detected": true,
+      "tampered_region_delta_ratio": 1.5
+    },
+    {
+      "book": "Hume-Enquiry",
+      "recompute_matches_original": true,
+      "tamper_detected": true,
+      "tampered_region_delta_ratio": 1.5000000000000002
+    }
+  ],
+  "experiment_a_composition": [
+    {
+      "book": "Plato-Republic",
+      "sequential_distortion": 306.2862028156085,
+      "composite_distortion": 306.2862028156085,
+      "distortion_equal": true,
+      "jacobian_product_equal": true
+    },
+    {
+      "book": "Nietzsche-Genealogy",
+      "sequential_distortion": 90.30484629834386,
+      "composite_distortion": 90.30484629834386,
+      "distortion_equal": true,
+      "jacobian_product_equal": true
+    },
+    {
+      "book": "Machiavelli-Prince",
+      "sequential_distortion": 118.96279646241362,
+      "composite_distortion": 118.96279646241364,
+      "distortion_equal": true,
+      "jacobian_product_equal": true
+    },
+    {
+      "book": "Hume-Enquiry",
+      "sequential_distortion": 139.9152651489789,
+      "composite_distortion": 139.91526514897888,
+      "distortion_equal": true,
+      "jacobian_product_equal": true
+    }
+  ],
+  "experiment_b": [
+    {
+      "book": "Plato-Republic",
+      "n_chunks": 900,
+      "total_weight": 166231.96057870786,
+      "retained_weight": 142743.83833033044,
+      "dropped_weight": 23488.122248377458,
+      "law1_conservation": true,
+      "law1_regions_balance": true,
+      "fidelity_per_pass": [
+        0.9918571177778049,
+        0.9743463396707972,
+        0.9577978271307557
+      ],
+      "law2_monotone": true,
+      "per_region_dropped_base": [
+        1168.0366501702138,
+        336.7037999863319,
+        428.8337370999582,
+        3816.7220791546815,
+        3748.78395646808,
+        4802.142644048464,
+        4448.3709667681815,
+        4738.528414681548
+      ],
+      "corruption_truncation_region4_delta": -5808.37146812864,
+      "corruption_truncation_other_max_abs_delta": 0.0,
+      "corruption_trivialize_region6_delta": -7607.144384859008,
+      "corruption_trivialize_other_max_abs_delta": 0.0,
+      "tamper_detected": true
+    },
+    {
+      "book": "Nietzsche-Genealogy",
+      "n_chunks": 187,
+      "total_weight": 63243.47340071353,
+      "retained_weight": 54397.43034510893,
+      "dropped_weight": 8846.043055604614,
+      "law1_conservation": true,
+      "law1_regions_balance": true,
+      "fidelity_per_pass": [
+        0.9770177008133412,
+        0.940394077431986,
+        0.8994011140758245
+      ],
+      "law2_monotone": true,
+      "per_region_dropped_base": [
+        778.7597627373136,
+        992.6962166488155,
+        404.6318810802715,
+        723.5385267761321,
+        0.0,
+        1653.2139363334597,
+        2040.9988080239277,
+        2252.203924004692
+      ],
+      "corruption_truncation_region4_delta": -7402.407015147604,
+      "corruption_truncation_other_max_abs_delta": 0.0,
+      "corruption_trivialize_region6_delta": -2776.6599401526423,
+      "corruption_trivialize_other_max_abs_delta": 0.0,
+      "tamper_detected": true
+    },
+    {
+      "book": "Machiavelli-Prince",
+      "n_chunks": 239,
+      "total_weight": 47749.73978931574,
+      "retained_weight": 35102.36179349306,
+      "dropped_weight": 12647.377995822682,
+      "law1_conservation": true,
+      "law1_regions_balance": true,
+      "fidelity_per_pass": [
+        0.9757074260118681,
+        0.9308345694539775,
+        0.8587290072842857
+      ],
+      "law2_monotone": true,
+      "per_region_dropped_base": [
+        1724.8201764718867,
+        1674.2871930076292,
+        939.1649559837294,
+        1014.0707588836776,
+        1334.246018561589,
+        1202.3861571336174,
+        2842.8793563461813,
+        1915.5233794343721
+      ],
+      "corruption_truncation_region4_delta": -2890.7868823457648,
+      "corruption_truncation_other_max_abs_delta": 0.0,
+      "corruption_trivialize_region6_delta": -3791.8348506120124,
+      "corruption_trivialize_other_max_abs_delta": 0.0,
+      "tamper_detected": true
+    },
+    {
+      "book": "Hume-Enquiry",
+      "n_chunks": 313,
+      "total_weight": 80232.76850612546,
+      "retained_weight": 59534.91923241511,
+      "dropped_weight": 20697.849273710344,
+      "law1_conservation": true,
+      "law1_regions_balance": true,
+      "fidelity_per_pass": [
+        0.9809215072716263,
+        0.9532533981536471,
+        0.9109067444910409
+      ],
+      "law2_monotone": true,
+      "per_region_dropped_base": [
+        2957.1153042412802,
+        2331.301977520134,
+        2569.068220355588,
+        1644.6720157547168,
+        2018.540059863121,
+        3151.012342424224,
+        2288.788959264973,
+        3737.3503942863076
+      ],
+      "corruption_truncation_region4_delta": -4032.0351760690273,
+      "corruption_truncation_other_max_abs_delta": 0.0,
+      "corruption_trivialize_region6_delta": -9749.45141548421,
+      "corruption_trivialize_other_max_abs_delta": 0.0,
+      "tamper_detected": true
+    }
+  ]
+}
