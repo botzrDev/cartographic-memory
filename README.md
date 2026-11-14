@@ -124,7 +124,8 @@ number hides.
 
 This repository is the free instrument and it is complete for what it claims.
 
-The paid kit on Gumroad adds the parts that make the rest of the paper
+The [paid kit on Gumroad](https://dreamddev.gumroad.com/l/cartographic-memory)
+($49) adds the parts that make the rest of the paper
 reproducible: the same instrument extended to twelve books, the sentence-embedding
 instrument with its pre-computed results (the run that produces the
 instrument-dependence finding), the bundled paper, one-command setup, 48-hour
