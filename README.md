@@ -131,6 +131,12 @@ instrument with its pre-computed results (the run that produces the
 instrument-dependence finding), the bundled paper, one-command setup, 48-hour
 support, and updates.
 
+## Updates by email
+
+When a follow-up result or a new instrument ships, subscribers get one email
+about it. [Subscribe on Gumroad](https://dreamddev.gumroad.com/subscribe). No
+purchase needed.
+
 ## Licence
 
 Code: MIT, see [LICENSE](LICENSE). Use it in your own systems without
